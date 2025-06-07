@@ -1,0 +1,97 @@
+/* Project 1 */
+.blog-form input,
+.blog-form textarea {
+  background-color: #fff;
+  color: #000;
+}
+
+.blog-card {
+  transition: all 0.3s ease;
+}
+
+/* Project2 */
+.task-enter {
+  opacity: 0;
+  transform: translateX(-20px);
+}
+.task-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 400ms ease, transform 400ms ease;
+}
+.task-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+.task-exit-active {
+  opacity: 0;
+  transform: translateX(20px);
+  transition: opacity 400ms ease, transform 400ms ease;
+}
+
+.confirm-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+
+.confirm-popup {
+  max-width: 320px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+
+.todo-container {
+  max-width: 700px;
+  margin: auto;
+}
+
+
+/* Proj3 */
+.weather-container {
+  max-width: 400px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.weather-box {
+  background-color: #deebf7;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+.loader {
+  font-weight: bold;
+  color: #007bff;
+}
+
+
+/* Proj4 */
+.user-manager {
+  max-width: 800px;
+  margin: auto;
+}
+
+.modal-backdrop {
+  display: none;
+}
+
+/* Proj5 */
+.product-page {
+  max-width: 900px;
+  margin: auto;
+}
+
+
+
+
